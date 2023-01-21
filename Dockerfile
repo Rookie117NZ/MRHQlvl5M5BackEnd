@@ -12,4 +12,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 27017
-CMD [ "nodemon" ]
+CMD [ "nodemon", "server.js" ]
